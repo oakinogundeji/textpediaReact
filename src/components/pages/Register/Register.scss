@@ -1,0 +1,44 @@
+/**
+ * created by Samson Iyanda on 09-10-2018
+ */
+//
+
+.form {
+  max-width: 450px;
+  margin-top: 25px;
+}
+
+.react-phone-number-input__input {
+  border-bottom: none !important;
+}
+
+.react-tel-input {
+  position: relative;
+  width: 100% !important;
+}
+
+.react-tel-input input[type="tel"] {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  right: 0;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+.react-tel-input .flag-dropdown {
+  left: 0;
+}
+
+.react-tel-input .selected-flag {
+  height: 100% !important;
+  outline: 0;
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+}
+
+.react-tel-input .country-list {
+  top: 36px !important;
+}

@@ -1,11 +1,23 @@
+/**
+ * created by Samson Iyanda on 08-10-2018
+ */
+//
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
-import './assets/css/style.css';
-import './assets/css/uikit.min.css';
+import { BrowserRouter } from "react-router-dom";
+import "./styles/bulma.css";
+import App from './components/App';
+import * as serviceWorker from './serviceWorker';
+import dotenv from "dotenv";
 
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+dotenv.config();
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>, 
+  document.getElementById('root'));
+
+
+serviceWorker.unregister();

@@ -1,0 +1,29 @@
+/**
+ * created by Samson Iyanda on 08-10-2018
+ */
+//
+
+header {
+  z-index: 10;
+}
+.navbar-item.active {
+  background-color: #0095f7;
+  color: #FFF;
+}
+
+.navbar-end{
+  padding: 8px 0;
+}
+
+.navbar-item {
+  border-radius: 3px !important;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  transition: all 0.33s ease;
+}
+
+.navbar-logo {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}

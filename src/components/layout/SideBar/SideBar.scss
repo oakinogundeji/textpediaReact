@@ -1,0 +1,39 @@
+/**
+ * created by Samson Iyanda on 10-10-2018
+ */
+//
+
+@media (max-width: 1087px) {
+  .sidebar {
+    display: block !important;
+  }
+}
+
+.sidebar {
+  position: fixed;
+  display: none;
+  top: 0;
+  height: 100%;
+  width: 250px;
+  right: 0;
+  visibility: visible;
+  background: #ffffff;
+  overflow-y: visible;
+  border-top: none;
+  text-align: left;
+  padding: 16px;
+  -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  .menus {
+    a {
+      display: block;
+      padding: 5px 5px 5px 5px;
+    }
+    li {
+      
+    }
+  }
+}

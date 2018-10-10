@@ -1,0 +1,110 @@
+/**
+ * created by Samson Iyanda on 08-10-2018
+ */
+//
+
+
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
+  background: #f6f8f9;
+  z-index: 1032;
+}
+
+@media (max-width: 1280px) {
+  .wrapper {
+    height: auto;
+    overflow: auto;
+    padding-bottom: 50px;
+    min-height: 100vh;
+  }
+  #hero {
+    padding-top: 70px !important;
+  }
+}
+
+@media (max-height: 650px) {
+  .wrapper {
+    height: auto;
+    // overflow: auto;
+  }
+}
+
+#bodyClick {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: auto;
+  right: 250px;
+  content: "";
+  z-index: 9999;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1087px) {
+  .nav-open.wrapper {
+    left: 0;
+    -webkit-transform: translate3d(-250px, 0, 0);
+    -moz-transform: translate3d(-250px, 0, 0);
+    -o-transform: translate3d(-250px, 0, 0);
+    -ms-transform: translate3d(-250px, 0, 0);
+    transform: translate3d(-250px, 0, 0);
+  }
+  .wrapper {
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -o-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    position: relative;
+  }
+}
+
+
+.navbar {
+  box-shadow: none !important;
+  padding: 8px 0;
+  height: 70px;
+  max-height: 70px;
+}
+
+#hero {
+  padding-top: 16px;
+}
+
+#hero span {
+  font-weight: 400;
+  color: #0095f7;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+#hero h1 {
+  // font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+#hero p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a; //#8da2b5;
+  margin-bottom: 0px;
+  padding: 0px;
+  letter-spacing: 0.05em;
+}
+
+.image img{
+  max-width: 445px;
+  margin: 0 auto;
+}
+
+
